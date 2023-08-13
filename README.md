@@ -15,3 +15,17 @@ The code shown here is an implementation of the Value Iteration algorithm. Given
 ### Implementation details
 
 We implemented the algorithm in **Python**, and used the external libraries **Matplotlib** and **Networkx**.
+
+### Run examples
+
+- Unfair Richman (upper bound of 1 vs 2):
+
+![Unfair_Richman](run_examples/Unfair_Richman.png)
+
+- Taxman with $\tau$=0.5 (lower bound of 1 vs 2, upper bound of 2 vs 1):
+
+![Taxman](run_examples/Taxman.png)
+
+- Co-Unfair Richman (lower bound of 2 vs 1):
+
+![Co_Unfair_Richman](run_examples/Co_Unfair_Richman.png)
